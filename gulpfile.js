@@ -1,4 +1,6 @@
-var elixir = require('laravel-elixir');
+var elixir      = require('laravel-elixir');
+    postcss     = require('laravel-elixir-postcss');
+    livereload  = require('laravel-elixir-livereload');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,5 +14,6 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+  mix.postcss("resources/assets/styles/style.css", "public/styles", "resources/assets/styles/**/*.css");
+  mix.livereload();
 });
