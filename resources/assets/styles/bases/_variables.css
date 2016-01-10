@@ -1,0 +1,37 @@
+/*===============================================================
+01/A - VARIABLES
+===============================================================*/
+
+:root {
+
+/*COLORS VARIABLES*/
+
+  /*brand colors*/
+  --brand-base   : ;
+  --brand-shadow : ;
+  --brand-light  : ;
+  --second-base  : ;
+  --third-base   : ;
+
+  /*gray scale*/
+  --gray-base    : ;
+  --gray-shadow  : ;
+  --gray-dark    : ;
+  --gray-light   : ;
+  --gray-smooth  : ;
+
+  /*user colors*/
+  --red-alert     : ;
+  --ylw-warning   : ;
+  --blue-info     : ;
+  --green-success : ;
+
+  /*opacity colors*/
+  --half-white  : ;
+  --half-black  : ;
+  --half-brand  : ;
+  --glass-white : ;
+  --glass-black : ;
+  --glass-brand : ;
+
+}
