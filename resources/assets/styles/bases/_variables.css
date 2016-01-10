@@ -33,20 +33,25 @@
   --glass-black : rgba(0, 0, 0, 0.1);
 
 
-/*SPACE DEFINITIONS*/
+/* MEASURE VARIABLES */
 
+  /*space definitions*/
   --space-base  : 10px;
   --space-large : 15px;
   --space-small : 1px;
 
-  --line-default : 16px;
-  --line-base    : 1em;
-  --line-large   : 1.4em;
-  --line-extra   : 2em;
-
+  /*borders*/
   --border-base  : 1px solid var(--gray-light);
   --border-focus : 1px solid var(--gray-base);
   --border-error : 1px solid var(--red-alert);
+
+  /*screen units*/
+  --width-large : 1180px;
+  --width-medium: 980px;
+  --width-tablet: 768px;
+  --width-small : 90%;
+  --total-width : 100%;
+
 
 /*TEXT VARIABLES*/
 
@@ -60,5 +65,32 @@
   --size-large   : 1.4em;
   --size-extra   : 24px;
   --size-small   : 0.9em;
+
+  /*font spaces*/
+  --line-default : 16px;
+  --line-base    : 1em;
+  --line-large   : 1.4em;
+  --line-extra   : 2em;
+  --more-spacing : 0.2em;
+
+/*CUSTOM SELECTORS*/
+
+
+  @custom-selector :--icons [class^="icon-"], [class*=" icon-"];
+
+  @custom-selector :--block article,  aside,  details,  figcaption,  figure,  footer,  header,  hgroup,
+                            main, menu,  nav,  section,  summary;
+
+  @custom-selector :--forms-txt input[type="text"], input[type="password"], input[type="search"],
+                                input[type="email"], input[type="file"], input[type="number"],
+                                input[type="tel"], input[type="date"], input[type="time"], textarea, select;
+
+  @custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+  @custom-selector :--bold strong, b;
+
+  @custom-selector :--btn button,  input[type="button"],  input[type="reset"],  input[type="submit"], .btn;
+
+  @custom-selector :--over :focus, :hover, :active;
 
 }
