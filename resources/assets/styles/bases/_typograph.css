@@ -1,3 +1,39 @@
 /*===============================================================
 01/B TYPOGRAPH
 ===============================================================*/
+
+body {
+  font-style: var(--font-default);
+  font-weight: var(--weight-base);
+  line-height: var(--line-default);
+  color: var(--color-default);
+}
+
+p {
+  font-weight: var(--weight-base);
+  line-height: var(--line-default);
+}
+
+time,
+address {
+  font-size: var(--size-small);
+  font-style: italic;
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-link);
+}
+
+:--heading {
+  font-weight: var(--weight-bold);
+  line-height: var(--line-large);
+}
+
+:--heading strong {
+  font-size: var(--size-large);
+}
+
+:--heading small {
+  font-size: var(--size-small);
+}

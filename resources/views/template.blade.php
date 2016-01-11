@@ -30,7 +30,9 @@
     </header>
 
     <main class="main">
-      @yield('content')
+      <div class="container">
+        @yield('content')
+      </div>
     </main>
 
 

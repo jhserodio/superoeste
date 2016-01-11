@@ -32,6 +32,11 @@
   --glass-white : rgba(255, 255, 255, 0.1);
   --glass-black : rgba(0, 0, 0, 0.1);
 
+  /*variables color atribute*/
+  --color-default : var(--gray-base);
+  --color-light   : var(--gray-light);
+  --color-dark    : var(--gray-dark);
+  --color-link    : var(--third-base);
 
 /* MEASURE VARIABLES */
 
@@ -88,6 +93,8 @@
   @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 
   @custom-selector :--bold strong, b;
+
+  @custom-selector :--list ul, ol;
 
   @custom-selector :--btn button,  input[type="button"],  input[type="reset"],  input[type="submit"], .btn;
 
