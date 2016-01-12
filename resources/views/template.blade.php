@@ -10,23 +10,25 @@
   <body>
 
     <header class="header">
-      <h1 class="logo">Oeste</h1>
-      <nav class="header-navegation">
-        <ul class="menu">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Institucional</a></li>
-          <li><a href="#">Ofertas</a>
-            <ul class="menu-drop">
-              <li><a href="#">Santa Maria do Oeste</a></li>
-              <li><a href="#">Pitanga</a></li>
-              <li><a href="#">Quatro Barras Centro</a></li>
-              <li><a href="#">Quatro Barras Borda do Campo</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Noticias</a></li>
-          <li><a href="#">Contatos</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <h1 class="logo">Oeste</h1>
+        <nav class="header-navegation">
+          <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Institucional</a></li>
+            <li><a href="#">Ofertas</a>
+              <ul class="menu-drop">
+                <li><a href="#">Santa Maria do Oeste</a></li>
+                <li><a href="#">Pitanga</a></li>
+                <li><a href="#">Quatro Barras Centro</a></li>
+                <li><a href="#">Quatro Barras Borda do Campo</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="main">
@@ -37,7 +39,9 @@
 
 
     <footer class="footer">
-      rodape
+      <div class="container">
+        rodape
+      </div>
     </footer>
 
 

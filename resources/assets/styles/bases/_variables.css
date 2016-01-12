@@ -49,6 +49,7 @@
   --border-base  : 1px solid var(--gray-light);
   --border-focus : 1px solid var(--gray-base);
   --border-error : 1px solid var(--red-alert);
+  --radius-base  : 1px;
 
   /*screen units*/
   --width-large : 1180px;
@@ -76,7 +77,7 @@
   --line-base    : 1em;
   --line-large   : 1.4em;
   --line-extra   : 2em;
-  --more-spacing : 0.2em;
+  --more-spacing : 0.1em;
 
 /*CUSTOM SELECTORS*/
 
