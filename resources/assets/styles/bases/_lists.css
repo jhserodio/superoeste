@@ -3,7 +3,7 @@
 ===============================================================*/
 
 :--list {
-  color: var(--colo-default);
+  color: var(--color-default);
   padding-left: var(--space-large);
 }
 

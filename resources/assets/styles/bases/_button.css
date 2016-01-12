@@ -19,7 +19,7 @@
   white-space: nowrap;
   box-sizing: border-box;
   letter-spacing: var(--more-spacing);
-  transition: all 0.3s ease;
+  transition: var(--transition-base);
 }
 
 

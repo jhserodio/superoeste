@@ -1,3 +1,14 @@
 /*===============================================================
 01/C - GRID-SETTING
 ===============================================================*/
+
+@custom-media --screen-small   (width < 768px);
+@custom-media --screen-tablet  (width >=  768px) and (width <  980px);
+@custom-media --screen-medium  (width >=  980px) and (width < 1180px);
+@custom-media --screen-large   (width >= 1140px);
+
+@custom-media --screen-base     (width >=  980px);
+@custom-media --screen-mobile   (width <  980px);
+@custom-media --screen-smalloff (width >=  768px);
+
+@lost gutter 25px;

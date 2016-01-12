@@ -3,7 +3,7 @@
 ===============================================================*/
 
 body {
-  font-style: var(--font-default);
+  font-style: var(--font-base);
   font-weight: var(--weight-base);
   line-height: var(--line-default);
   color: var(--color-default);
