@@ -16,7 +16,7 @@
           <ul class="menu">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Institucional</a></li>
-            <li><a href="#">Ofertas</a>
+            <li class="drop-down"><a href="#">Ofertas</a>
               <ul class="menu-drop">
                 <li><a href="#">Santa Maria do Oeste</a></li>
                 <li><a href="#">Pitanga</a></li>

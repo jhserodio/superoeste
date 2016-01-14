@@ -1,3 +1,44 @@
 /*===============================================================
 03
 ===============================================================*/
+
+.header-navegation {
+  display: block;
+  height: 60px;
+}
+
+.header-navegation .menu > li {
+  line-height: 60px;
+  height: 60px;
+  width: 110px;
+  text-align: center;
+}
+
+.header-navegation a {
+  color: white;
+}
+
+.header-navegation a:hover {
+  background: var(--brand-shadow);
+}
+
+/* DROP-DOWN */
+.header-navegation .drop-down:hover .menu-drop {
+  display: block;
+}
+
+.header-navegation .menu-drop {
+  position: absolute;
+  width: 280px;
+  top: 60px;
+  margin-left: -85px;
+  left: 0;
+  display: none;
+}
+
+.header-navegation .menu-drop li {
+  height: 60px;
+  line-height: 60px;
+  margin: 1px 0;
+  background: var(--brand-base);
+}

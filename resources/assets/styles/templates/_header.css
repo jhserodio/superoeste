@@ -1,3 +1,24 @@
 /*===============================================================
-05
+05/A - HEADER
 ===============================================================*/
+
+.header {
+  lost-center: 100%;
+  background: var(--brand-base);
+}
+
+.header .logo {
+  width: auto;
+  float: left;
+  margin: 0;
+
+  /*provisorio*/
+  color: white;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.header .header-navegation {
+  width: auto;
+  float: right;
+}
