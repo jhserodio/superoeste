@@ -15,5 +15,6 @@ var elixir      = require('laravel-elixir');
 
 elixir(function(mix) {
   mix.postcss("resources/assets/styles/style.css", "public/styles", "resources/assets/styles/**/*.css");
+  mix.copy("resources/assets/fonts", "public/fonts");
   mix.livereload();
 });

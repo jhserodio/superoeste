@@ -12,7 +12,7 @@
     <header class="header">
       <div class="container">
         <h1 class="logo">Oeste</h1>
-        <nav class="header-navegation">
+        <nav class="navegation-header">
           <ul class="menu">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Institucional</a></li>

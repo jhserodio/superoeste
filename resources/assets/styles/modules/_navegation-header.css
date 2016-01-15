@@ -2,32 +2,36 @@
 03
 ===============================================================*/
 
-.header-navegation {
+.navegation-header {
   display: block;
   height: 60px;
 }
 
-.header-navegation .menu > li {
+.navegation-header .menu > li {
   line-height: 60px;
   height: 60px;
-  width: 110px;
+  width: 120px;
   text-align: center;
 }
 
-.header-navegation a {
+.navegation-header a {
   color: white;
+  font-weight: var(--weight-bold);
+  letter: var(--more-spacing);
+  text-transform: uppercase;
+  font-size: var(--size-small);
 }
 
-.header-navegation a:hover {
+.navegation-header a:hover {
   background: var(--brand-shadow);
 }
 
 /* DROP-DOWN */
-.header-navegation .drop-down:hover .menu-drop {
+.navegation-header .drop-down:hover .menu-drop {
   display: block;
 }
 
-.header-navegation .menu-drop {
+.navegation-header .menu-drop {
   position: absolute;
   width: 280px;
   top: 60px;
@@ -36,9 +40,9 @@
   display: none;
 }
 
-.header-navegation .menu-drop li {
-  height: 60px;
-  line-height: 60px;
+.navegation-header .menu-drop li {
+  height: 50px;
+  line-height: 50px;
   margin: 1px 0;
   background: var(--brand-base);
 }
