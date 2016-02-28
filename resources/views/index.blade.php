@@ -5,7 +5,7 @@
 
 <i class="icon-home"></i>
 
-<i class="icon-office"></i>
+<i class="icon-build"></i>
 
 </section>
 

@@ -2,8 +2,21 @@
 01/B TYPOGRAPH
 ===============================================================*/
 
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../../fonts/icomoon.eot?o2urkl');
+    src:    url('../../fonts/icomoon.eot?o2urkl#iefix') format('embedded-opentype'),
+            url('../../fonts/icomoon.ttf?o2urkl') format('truetype'),
+            url('../../fonts/icomoon.woff?o2urkl') format('woff'),
+            url('../../fonts/icomoon.svg?o2urkl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-style: var(--font-base);
+  font-size  : var(--size-default);
+  font-style : var(--font-base);
   font-weight: var(--weight-base);
   line-height: var(--line-default);
   color: var(--color-default);
@@ -16,8 +29,6 @@ p {
 
 time,
 address {
-  font-size: var(--size-small);
-  font-style: italic;
   color: var(--color-light);
 }
 

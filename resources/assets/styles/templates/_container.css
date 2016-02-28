@@ -3,5 +3,11 @@
 ===============================================================*/
 
 .container {
-  lost-center: var(--width-large);
+  lost-center: var(--width-medium);
+}
+
+@media (--screen-small) {
+  .container {
+    max-width: var(--width-small);
+  }
 }

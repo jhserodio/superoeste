@@ -11,7 +11,6 @@
 }
 
 .menu > li {
-  display: inline-block;
   position: relative;
 }
 
@@ -21,4 +20,10 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+}
+
+@media (--screen-medium) {
+  .menu > li {
+    display: inline-block;
+  }
 }

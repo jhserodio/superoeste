@@ -1,5 +1,5 @@
 var elixir      = require('laravel-elixir');
-    postcss     = require('laravel-elixir-postcss');
+    pcss        = require('laravel-elixir-pcss');
     livereload  = require('laravel-elixir-livereload');
 
 /*
@@ -14,7 +14,7 @@ var elixir      = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-  mix.postcss("resources/assets/styles/style.css", "public/styles", "resources/assets/styles/**/*.css");
+  mix.pcss("resources/assets/styles/style.css", "public/styles", "resources/assets/styles/**/*.css");
   mix.copy("resources/assets/fonts", "public/fonts");
   mix.livereload();
 });

@@ -11,17 +11,8 @@
 /* 02/C BUTTONS */
 @import 'buttons';
 
-/* 02/D CARD */
-@import 'card';
-
 /* 02/E THUMB */
 @import 'thumb';
-
-/* 02/F BANNER */
-@import 'banner';
-
-/* 02/G COMMENT */
-@import 'comment';
 
 /* 02/H FLEX-IMAGE */
 @import 'flex-image';
@@ -37,3 +28,6 @@
 
 /* 02/M TAGS */
 @import 'tags';
+
+/* 02/M logo */
+@import 'logo';
