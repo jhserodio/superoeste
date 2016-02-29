@@ -40,3 +40,52 @@
   letter-spacing: var(--more-spacing);
   text-transform: uppercase;
 }
+
+.title-page {
+  font-size: calc(var(--size-base)*2);
+  text-transform: uppercase;
+  letter-spacing: var(--more-spacing);
+  color: var(--brand-base);
+  text-align: center;
+  font-weight: var(--weight-base);
+  margin: calc(var(--space-base)*3) auto;
+  position: relative;
+}
+
+.title-page span {
+  margin: 0 20px;
+}
+
+.title-section {
+  font-size: var(--size-large);
+  font-weight: var(--weight-base);
+  text-transform: uppercase;
+  color: var(--brand-light);
+}
+
+@media (--screen-medium) {
+
+  .title-page::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    background: var(--brand-light);
+    top: 20px;
+  }
+
+}
+
+@media (--screen-small) {
+
+  .title-page {
+    font-size: var(--size-large);
+  }
+
+
+  .title-section {
+    font-size: var(--size-base);
+    font-weight: var(--weight-bold);
+  }
+
+}

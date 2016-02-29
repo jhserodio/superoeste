@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', ['as' => 'index', 'uses' => function(){
     return view('index');
-});
+}]);
+
+Route::get('institucional', ['as' => 'institucional', 'uses' => function(){
+    return view('institucional');
+}]);
 
 /*
 |--------------------------------------------------------------------------
