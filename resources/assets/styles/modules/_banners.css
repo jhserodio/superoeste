@@ -1,3 +1,43 @@
 /*===============================================================
 03
 ===============================================================*/
+
+.banner {
+  lost-center: 100%;
+}
+
+.banner-item {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+}
+
+.banner-item img {
+  background: var(--gray-light);
+  width: 100%;
+  height: auto;
+
+  /*provisorio*/
+  height: 460px;
+}
+
+.banner-item h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.banner-item p {
+  width: 100%;
+  position: absolute;
+  bottom: 8px;
+  height: 140px;
+  left: 0;
+  margin: 0;
+  padding: calc(var(--space-base)*2);
+  background: var(--half-black);
+  color: white;
+  box-sizing: border-box;
+}

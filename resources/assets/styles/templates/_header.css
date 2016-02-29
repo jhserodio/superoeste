@@ -6,6 +6,7 @@
   lost-center: 100%;
   background: var(--brand-base);
   max-width: 100%;
+  z-index: 99999;
 }
 
 .header .btn-icon {

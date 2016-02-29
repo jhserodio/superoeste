@@ -1,3 +1,42 @@
 /*===============================================================
 02
 ===============================================================*/
+
+.title {
+  color: var(--brand-base);
+  font-weight: var(--weight-base);
+  text-transform: uppercase;
+  position: relative;
+  font-size: var(--size-extra);
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -5px;
+  width: 80px;
+  height: 1px;
+  background: var(--brand-light);
+}
+
+.title-banner {
+  color: var(--half-black);
+  box-sizing: border-box;
+  font-size: var(--size-base);
+  font-weight: var(--weight-base);
+  margin: var(--space-base) 10%;
+  padding: var(--space-base);
+  width: 80%;
+  text-transform: uppercase;
+  text-align: center;
+  background: var(--glass-black);
+}
+
+.title-news {
+  font-size: var(--size-base);
+  font-weight: var(--weight-base);
+  letter-spacing: var(--more-spacing);
+  text-transform: uppercase;
+}

@@ -2,6 +2,10 @@
 03
 ===============================================================*/
 
+.navegation-header {
+  z-index: 99999;
+}
+
 .navegation-header a {
   color: white;
   font-weight: var(--weight-bold);
@@ -22,6 +26,7 @@
   overflow: hidden;
   max-height: 0;
   transition: var(--transition-base);
+  z-index: 999;
 }
 
 @media (--screen-medium) {

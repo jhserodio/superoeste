@@ -42,6 +42,11 @@
 }
 
 @media (--screen-medium) {
+
+  .footer {
+    padding: calc(var(--space-large)*2) 0;
+  }
+
   .footer-info {
     lost-column: 3/4 4;
   }
@@ -53,6 +58,7 @@
   .footer-info span {
     lost-waffle: 1/2 2;
   }
+
 }
 
 @media (--screen-small) {

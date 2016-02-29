@@ -7,3 +7,8 @@
   width: auto;
   padding: var(--space-base);
 }
+
+.btn-link {
+  background: var(--gray-smooth);
+  color: var(--gray-base);
+}

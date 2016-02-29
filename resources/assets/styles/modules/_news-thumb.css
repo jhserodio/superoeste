@@ -1,0 +1,29 @@
+.news-thumb {
+  lost-center: 100%;
+}
+
+.nt-header h3 {
+  margin: 0;
+}
+
+.nt-header time {
+  font-size: var(--size-small);
+}
+
+@media(--screen-medium) {
+  .nt-main p {
+    height: 160px;
+  }
+
+  .nt-footer button {
+    width: 100%;
+  }
+}
+
+@media(--screen-small) {
+
+  .nt-footer a {
+    float: right;
+  }
+
+}
