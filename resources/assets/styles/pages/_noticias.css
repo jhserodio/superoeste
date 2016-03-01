@@ -1,3 +1,31 @@
 /*===============================================================
 04
 ===============================================================*/
+
+.news-set {
+  margin-bottom: calc(var(--space-base)*3);
+}
+
+.news-set button {
+  width: auto;
+  float: right;
+  margin: var(--space-base) 0;
+}
+
+.news-set .nt-main {
+  margin: calc(var(--space-base)*2) 0;
+}
+
+.news-set .nt-main p {
+  min-height: 0;
+}
+
+@media (--screen-medium) {
+  .nt-image {
+    lost-column: 2/5 5;
+  }
+
+  .nt-descript {
+    lost-column: 3/5 5;
+  }
+}

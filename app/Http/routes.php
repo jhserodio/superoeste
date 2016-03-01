@@ -19,6 +19,18 @@ Route::get('institucional', ['as' => 'institucional', 'uses' => function(){
     return view('institucional');
 }]);
 
+Route::get('ofertas', ['as' => 'ofertas', 'uses' => function(){
+    return view('ofertas');
+}]);
+
+Route::get('noticias', ['as' => 'noticias', 'uses' => function(){
+    return view('noticias');
+}]);
+
+Route::get('contatos', ['as' => 'contatos', 'uses' => function(){
+    return view('contatos');
+}]);
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

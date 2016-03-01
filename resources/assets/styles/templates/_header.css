@@ -38,4 +38,8 @@
       font-size: var(--icon-base);
     }
 
+    .header .navegation-header {
+      display: none;
+    }
+
 }

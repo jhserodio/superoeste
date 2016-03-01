@@ -41,6 +41,10 @@
   font-style: normal;
 }
 
+.footer-info i {
+  padding: 0 2px;
+}
+
 @media (--screen-medium) {
 
   .footer {
