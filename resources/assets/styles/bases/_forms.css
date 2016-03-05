@@ -3,7 +3,7 @@
 ===============================================================*/
 
 fieldset {
-  background: var(--gray-smooth);
+  background: none;
   border: var(--border-base);
   outline: 0;
   margin: 0;
@@ -51,7 +51,7 @@ label {
 
 textarea {
   resize: vertical;
-  height: 200px;
+  height: 105px;
 }
 
 input[type="checkbox"],
