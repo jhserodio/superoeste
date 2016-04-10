@@ -16,7 +16,7 @@
       <fieldset>
 
         <p class="form-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, ab, laudantium.
+          Entre em contato conosco, deixe sua sugestão ou peça seu cartão.
         </p>
 
         <div class="form-control">

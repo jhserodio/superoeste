@@ -13,178 +13,74 @@
   <div class="content">
 
     <div class="news-set">
+
       <article class="news-thumb">
         <header class="nt-header">
-          <h3 class="title-news">Titulo da noticia</h3>
-          <time> 00:00 - 12 de setembro de 2012</time>
+          <h3 class="title-news"> Dia das Mães </h3>
+          <time>11 de Abril de 2016</time>
         </header>
         <main class="nt-main">
 
           <div class="nt-image">
             <div class="flex-image">
-              <img src="#" alt="">
+              <img src="<?= URL::asset('images/news/news-03.jpg') ?>" alt="promoçao de pascoa">
             </div>
           </div>
 
           <div class="nt-descript">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
+              Nesse dia das mães venha encher a geladeira com produtos do super oeste, para aquele almoço de
+              dia das mães todo especial.
             </p>
           </div>
 
         </main>
-        <footer class="nt-footer">
-          <a href="#">
-            <button class="btn-link">Ler Mais</button>
-          </a>
-        </footer>
       </article>
 
       <article class="news-thumb">
         <header class="nt-header">
-          <h3 class="title-news">Titulo da noticia</h3>
-          <time> 00:00 - 12 de setembro de 2012</time>
+          <h3 class="title-news"> Promoção de Pascoa </h3>
+          <time>02 de Março de 2016</time>
         </header>
         <main class="nt-main">
 
           <div class="nt-image">
             <div class="flex-image">
-              <img src="#" alt="">
+              <img src="<?= URL::asset('images/news/news-01.jpg') ?>" alt="promoçao de pascoa">
             </div>
           </div>
 
           <div class="nt-descript">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
+              O Superoeste esta com preços Imperdíveis para chocolates e Ovos de pasco.
+              Venha a loja mais próxima e aproveite nossas ofertas, com preços imbatíveis pela concorrência.
             </p>
           </div>
 
         </main>
-        <footer class="nt-footer">
-          <a href="#">
-            <button class="btn-link">Ler Mais</button>
-          </a>
-        </footer>
       </article>
 
       <article class="news-thumb">
         <header class="nt-header">
-          <h3 class="title-news">Titulo da noticia</h3>
-          <time> 00:00 - 12 de setembro de 2012</time>
+          <h3 class="title-news">promoção brahma e skoll litrão</h3>
+          <time>12 de setembro de 2015</time>
         </header>
         <main class="nt-main">
 
           <div class="nt-image">
             <div class="flex-image">
-              <img src="#" alt="">
+              <img src="<?= URL::asset('images/news/news-02.jpg') ?>" alt="promoçao de cerveja litrão">
             </div>
           </div>
 
           <div class="nt-descript">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
+              O Superoeste esta com preços Imperdíveis para Cerveja Litrão Brahma e Skol.
+              Venha a loja mais próxima e aproveite nossas ofertas, com preços imbatíveis pela concorrência.
             </p>
           </div>
 
         </main>
-        <footer class="nt-footer">
-          <a href="#">
-            <button class="btn-link">Ler Mais</button>
-          </a>
-        </footer>
-      </article>
-
-      <article class="news-thumb">
-        <header class="nt-header">
-          <h3 class="title-news">Titulo da noticia</h3>
-          <time> 00:00 - 12 de setembro de 2012</time>
-        </header>
-        <main class="nt-main">
-
-          <div class="nt-image">
-            <div class="flex-image">
-              <img src="#" alt="">
-            </div>
-          </div>
-
-          <div class="nt-descript">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
-            </p>
-          </div>
-
-        </main>
-        <footer class="nt-footer">
-          <a href="#">
-            <button class="btn-link">Ler Mais</button>
-          </a>
-        </footer>
-      </article>
-
-      <article class="news-thumb">
-        <header class="nt-header">
-          <h3 class="title-news">Titulo da noticia</h3>
-          <time> 00:00 - 12 de setembro de 2012</time>
-        </header>
-        <main class="nt-main">
-
-          <div class="nt-image">
-            <div class="flex-image">
-              <img src="#" alt="">
-            </div>
-          </div>
-
-          <div class="nt-descript">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
-            </p>
-          </div>
-
-        </main>
-        <footer class="nt-footer">
-          <a href="#">
-            <button class="btn-link">Ler Mais</button>
-          </a>
-        </footer>
-      </article>
-
-      <article class="news-thumb">
-        <header class="nt-header">
-          <h3 class="title-news">Titulo da noticia</h3>
-          <time> 00:00 - 12 de setembro de 2012</time>
-        </header>
-        <main class="nt-main">
-
-          <div class="nt-image">
-            <div class="flex-image">
-              <img src="#" alt="">
-            </div>
-          </div>
-
-          <div class="nt-descript">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
-            </p>
-          </div>
-
-        </main>
-        <footer class="nt-footer">
-          <a href="#">
-            <button class="btn-link">Ler Mais</button>
-          </a>
-        </footer>
       </article>
 
     </div>
@@ -193,10 +89,6 @@
       <ul class="menu">
         <li><a href="#"> <i class="icon-left"></i> </a></li>
         <li><a href="#"> 1 </a></li>
-        <li><a href="#"> 2 </a></li>
-        <li><a href="#"> 3 </a></li>
-        <li><a href="#"> 4 </a></li>
-        <li><a href="#"> 5 </a></li>
         <li><a href="#"> <i class="icon-right"></i> </a></li>
       </ul>
     </div>
@@ -208,22 +100,7 @@
     <div class="sidebar-item">
       <h3 class="title-sidebar">Categoria</h3>
       <ul class="sidebar-list">
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-      </ul>
-    </div>
-
-    <div class="sidebar-item">
-      <h3 class="title-sidebar">Categoria</h3>
-      <ul class="sidebar-list">
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
-        <li><a href="#">Categoria tal</a></li>
+        <li><a href="#">Promoções</a></li>
       </ul>
     </div>
 

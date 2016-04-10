@@ -14,12 +14,9 @@
 }
 
 .banner-item img {
-  background: var(--gray-light);
+  background: black;
   width: 100%;
   height: auto;
-
-  /*provisorio*/
-  height: 460px;
 }
 
 .banner-item h1 {

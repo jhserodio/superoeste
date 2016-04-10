@@ -23,12 +23,12 @@
             <li><a href="{{ route('index') }}">Inicio</a></li>
             <li><a href="{{ route('institucional') }}">Institucional</a></li>
             <li class="drop-down"><a href="{{ route('ofertas') }}">Ofertas <i class="icon-down"></i></a>
-              <ul class="menu-drop">
+              <!-- <ul class="menu-drop">
                 <li><a href="#">Santa Maria do Oeste</a></li>
                 <li><a href="#">Pitanga</a></li>
                 <li><a href="#">Quatro Barras Centro</a></li>
                 <li><a href="#">Quatro Barras Borda do Campo</a></li>
-              </ul>
+              </ul> -->
             </li>
             <li><a href="{{ route('noticias') }}">Noticias</a></li>
             <li><a href="{{ route('contatos') }}">Contatos</a></li>
@@ -50,8 +50,8 @@
 
         <div class="footer-note">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            as Lojas Oeste Supermercados agradecem a sua visita, esperamos que voltem sempre
+            e faremos o possível para que mesmo em nosso espaço virtual seja bem recebido.
           </p>
         </div>
 

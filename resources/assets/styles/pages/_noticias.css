@@ -12,10 +12,6 @@
   margin: var(--space-base) 0;
 }
 
-.news-set .nt-main {
-  margin: calc(var(--space-base)*2) 0;
-}
-
 .news-set .nt-main p {
   min-height: 0;
 }

@@ -22,7 +22,7 @@ legend {
 
 label {
   display: block;
-  color: var(--color-default);
+  color: var(--brand-base);
   margin: var(--space-small) 0;
   font-size: var(--size-small);
   font-weight: var(--weight-bold);

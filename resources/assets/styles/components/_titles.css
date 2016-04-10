@@ -31,7 +31,7 @@
   width: 80%;
   text-transform: uppercase;
   text-align: center;
-  background: var(--glass-black);
+  background: var(--half-white);
 }
 
 .title-news {

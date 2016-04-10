@@ -15,6 +15,7 @@ var elixir      = require('laravel-elixir');
 
 elixir(function(mix) {
   mix.pcss("resources/assets/styles/style.css", "public/styles", "resources/assets/styles/**/*.css");
-  mix.copy("resources/assets/fonts", "public/fonts");
+  mix.copy("resources/assets/fonts", "public/fonts")
+     .copy("resources/assets/images", "public/images");
   mix.livereload();
 });

@@ -9,15 +9,15 @@
         <article class="banner-item">
           <header>
             <h1 class="title-banner">
-              Titulo
+              Dia das Mães
             </h1>
           </header>
           <main>
-            <img src="#" alt="banner image" />
+            <img src="<?= URL::asset('images/banner/banner-01.jpg') ?>" alt="banner image" />
           </main>
           <footer>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              No oeste todos os dias são dias das mães
             </p>
           </footer>
         </article>
@@ -27,16 +27,16 @@
         <article class="banner-item">
           <header>
             <h1 class="title-banner">
-              Exemplo
+              Cartão Oeste
             </h1>
           </header>
           <main>
-            <img src="#" alt="banner image" />
+            <img src="<?= URL::asset('images/banner/banner-02.jpg') ?>" alt="banner image" />
           </main>
           <footer>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              Faça suas compras com credito direto, para todos os mercados,
+              condições especiais de pagamente especialmente para os clientes Oeste.
             </p>
           </footer>
         </article>
@@ -46,16 +46,16 @@
         <article class="banner-item">
           <header>
             <h1 class="title-banner">
-              titulo
+              Produtos Oeste
             </h1>
           </header>
           <main>
-            <img src="#" alt="banner image" />
+            <img src="<?= URL::asset('images/banner/banner-03.jpg') ?>" alt="banner image" />
           </main>
           <footer>
             <p>
-              Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              O Super Oeste Oferece produtos de produção propria na nossa padaria,
+              com preços mais acessíveis e produtos fresquinhos.
             </p>
           </footer>
         </article>
@@ -69,12 +69,11 @@
           <h2 class="title">Insitucional</h2>
           <p>
             <i class="icon-build"></i>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dolore minima itaque voluptatem corporis non molestiae eaque,
-            accusantium quasi dignissimos vel quas, harum aperiam eveniet,
-            reiciendis aspernatur incidunt eligendi inventore accusamus?
+            <strong>Supermercado Oeste desde 1994</strong> <br>
+            Tradição e respeito ao cliente, sempre buscando dar qualidade de
+            atendimento e produtos para nossos clientes e suas famílias
           </p>
-          <a href="#">
+          <a href="{{ route('institucional') }}">
             <button class="btn-link">
               ler mais
             </button>
@@ -85,12 +84,12 @@
           <h2 class="title">Cartão Oeste</h2>
           <p>
             <i class="icon-card"></i>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dolore minima itaque voluptatem corporis non molestiae eaque,
-            accusantium quasi dignissimos vel quas, harum aperiam eveniet,
-            reiciendis aspernatur incidunt eligendi inventore accusamus?
+            <strong>
+              Mais Crédito, Prazo e Benefícios
+            </strong> <br>
+            Adquira seu cartão em qualquer uma de nossas lojas, dirigindo-se ao balcão de atendimento.
           </p>
-          <a href="#">
+          <a href="{{ route('contatos') }}">
             <button class="btn-link">
               peça o seu
             </button>
@@ -107,87 +106,47 @@
       <div class="card">
         <article class="news-thumb">
           <header class="nt-header">
-            <h3 class="title-news">Titulo da noticia</h3>
-            <time> 00:00 - 12 de setembro de 2012</time>
+            <h3 class="title-news">Dia Das Mães</h3>
+            <time> 11 Abril de 2016 </time>
           </header>
           <main class="nt-main">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
+              Nesse dia das mães venha encher a geladeira com produtos do super oeste, para aquele almoço de
+              dia das mães todo especial.
             </p>
           </main>
-          <footer class="nt-footer">
-            <a href="#">
-              <button class="btn-link">Ler Mais</button>
-            </a>
-          </footer>
         </article>
       </div>
 
       <div class="card">
         <article class="news-thumb">
           <header class="nt-header">
-            <h3 class="title-news">Titulo da noticia</h3>
-            <time> 00:00 - 12 de setembro de 2012</time>
+            <h3 class="title-news">PROMOÇÃO DE PASCOA</h3>
+            <time> 02 Março de 2016 </time>
           </header>
           <main class="nt-main">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
+              O Superoeste esta com preços Imperdíveis para chocolates e Ovos de pasco. Venha a
+              loja mais próxima e aproveite nossas ofertas, com preços imbatíveis pela concorrência.
             </p>
           </main>
-          <footer class="nt-footer">
-            <a href="#">
-              <button class="btn-link">Ler Mais</button>
-            </a>
-          </footer>
         </article>
       </div>
 
       <div class="card">
         <article class="news-thumb">
           <header class="nt-header">
-            <h3 class="title-news">Titulo da noticia</h3>
-            <time> 00:00 - 12 de setembro de 2012</time>
+            <h3 class="title-news">PROMOÇÃO cerveja LITRÃO</h3>
+            <time>12 de setembro de 2015</time>
           </header>
           <main class="nt-main">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
+              O Superoeste esta com preços Imperdíveis para Cerveja Litrão Brahma e Skol.
+              Venha a loja mais próxima e aproveite nossas ofertas, com preços imbatíveis pela concorrência.
             </p>
           </main>
-          <footer class="nt-footer">
-            <a href="#">
-              <button class="btn-link">Ler Mais</button>
-            </a>
-          </footer>
         </article>
       </div>
-
-      <div class="card">
-        <article class="news-thumb">
-          <header class="nt-header">
-            <h3 class="title-news">Titulo da noticia</h3>
-            <time> 00:00 - 12 de setembro de 2012</time>
-          </header>
-          <main class="nt-main">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium asperiores aperiam,
-              perspiciatis exercitationem nihil aspernatur iste nam quis eaque perferendis
-              unde sit a doloribus molestias cupiditate id ad maxime accusantium?
-            </p>
-          </main>
-          <footer class="nt-footer">
-            <a href="#">
-              <button class="btn-link">Ler Mais</button>
-            </a>
-          </footer>
-        </article>
-      </div>
-
     </div>
   </div>
 
